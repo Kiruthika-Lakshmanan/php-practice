@@ -1,0 +1,155 @@
+<h1 class="heading">{PAGE_TITLE}</h1>
+
+<div class="container-width-signup">
+    <div class="alert alert-warning" role="alert">
+    {ERROR_MESSAGE}
+    </div>
+    <form method="POST">
+    <table>
+    <tr>
+        <td>
+            <label class="text">User Id</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="userId" value="{USER_ID}"><span class="mand">*</span> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">First Name</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="firstName"  value="{FIRST_NAME}" ><span class="mand">*</span> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Middle Initial</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="middleInitial" value="{MIDDLE_INITIAL}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Last Name</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="lastName" value="{LAST_NAME}"><span class="mand">*</span> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Email</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="email" value="{EMAIL}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Password</label>
+        </td>
+        <td>
+            <input type="password" class="input-box" name="password" ><span class="mand">*</span> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Confirm Password</label>
+        </td>
+        <td>
+            <input type="password" class="input-box" name="confirmPassword" ><span class="mand">*</span> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Address</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="address" value="{ADDRESS}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">City</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="city" value="{CITY}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">State</label>
+        </td>
+        <td>
+            <select class="input-box" name="state">
+                <option>Select...</option>
+                <!-- BEGIN show_state -->
+                <option value="{STATE_ID}" {STATE_SELECTED}>{STATE_NAME}</option>
+                <!-- END show_state -->
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Pincode</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="pincode" value="{PINCODE}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Country</label>
+        </td>
+        <td>
+            <select class="input-box" name="country">
+                <option>Select...</option>
+                <!-- BEGIN show_country -->
+                <option value="{COUNTRY_ID}" {COUNTRY_SELECTED}>{COUNTRY_NAME}</option>
+                <!-- END show_country -->
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Phone</label>
+        </td>
+        <td>
+            <input type="text" class="input-box" name="phone" value="{PHONE}"> <br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Language</label>
+        </td>
+        <td>
+            <select class="input-box" name="language" >
+                <option>Select...</option>
+                <!-- BEGIN show_language -->
+                <option value="{LANGUAGE_ID}" {LANGUAGE_SELECTED}>{LANGUAGE_NAME}</option>
+                <!-- END show_language -->
+                
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="text">Profile Image:</label>
+        </td>
+        <td>
+                <input type="file" class="file-button" name="file" value="choose file.." /><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" class="button-signup" value="Create New User" name="submit">
+        </td>
+        <td>
+            <input type="submit" class="button-signup" value="Cancel" name="cancel">
+        </td>
+    </tr>
+    </table>
+</form>
+</div>

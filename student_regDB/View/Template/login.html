@@ -1,0 +1,31 @@
+<h1 class="heading">{PAGE_TITLE}</h1>
+<div class="container-width-login">
+    <div class="alert alert-danger" role="alert">
+    {ERROR_MESSAGE}
+    </div>
+    <form method="POST">
+    <table>
+        <tr>
+            <td>
+                <label class="text-black">User Id</label>
+            </td>
+            <td>
+                <span class="mand">*</span>
+                <input type="text" class="input-box-login" name="userId" value="{USER_ID}"/> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="text-black">Password</label>
+            </td>
+            <td>
+                <span class="mand">*</span>
+                <input type="password" class="input-box-login" name="password"/> <br>
+            </td>
+        </tr>
+    </table>
+    <a href="/login/forgot" class="forgot-text">Forgot Password? Click</a><br>
+    <input type="submit" name="submit" value="submit" class="button-login" /><br>
+    <span class="text">Not Registered?</span> <a href="/login/signup" class="link"><span class="text-black">Create an account</span></a>
+</form>
+</div>

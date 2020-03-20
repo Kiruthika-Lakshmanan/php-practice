@@ -1,0 +1,55 @@
+there is folder named STUDENT inside that folder we have 
+*config
+*controller
+*lib
+*model
+*view
+with .htaccess file 
+and finally with index.php
+
+CONFIG folder contains with database connection process with
+configuration.php and db.php
+
+CONTROLLER folder is controller for the file to have action of request or process in it.
+it has *loginController.class.php and
+*RequestController.class.php
+
+LIB folder the is folder html->template-> inside the template we have the pear template calling process with 
+*pear.php
+*sigma.php
+
+VIEW folder there is a four folder in it ,this will have the UI design or a content to be displayed.
+*Media
+*script
+*Style
+*Template
+
+MEDIA folder we are going to have a all images and logo that we use in web pages
+
+SCRIPT folder will have the javascript language file in it that means all javascript validation file should be there.
+
+STYLE folder will have have CSS file that design done for webpages.
+
+Template folder will have the HTML file which we have created.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
